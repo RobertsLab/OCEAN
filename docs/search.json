@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to OCEAN",
+    "title": "¡Diviértete explorando el océano!",
     "section": "",
-    "text": "Welcome to OCEAN\nOCEAN is an integrated web platform dedicated to advancing research on Ostrea chilensis, the Chilean flat oyster. By combining high-resolution genomic data with cutting-edge epigenomic insights, OCEAN supports researchers exploring gene regulation, environmental plasticity, and resilience in this ecologically and economically important marine species.\nThe platform offers:\n• 🧬 Genome browser for O. chilensis\n• 🔍 Epigenetic data\n• 📊 Interactive tools for gene expression and regulatory region analysis\n• 🧠 Curated annotations including GO terms and pathway associations\n• 🌐 Data sharing & collaboration hub for the oyster research community\n\n\n\n\n\n\n👉 Explore JBrowse Genome Browser\n  \n\nFor questions or feedback, please submit an issue 🧬"
+    "text": "OCEAN is an integrated web platform dedicated to advancing research on Ostrea chilensis, the Chilean flat oyster. By combining high-resolution genomic data with cutting-edge epigenomic insights, OCEAN supports researchers exploring gene regulation, environmental plasticity, and resilience in this ecologically important marine species.\nThe platform offers:\n• 🧬 Genome browser for O. chilensis\n• 🔍 Epigenetic data\n• 📊 Interactive tools for gene expression and regulatory region analysis\n• 🧠 Curated annotations including GO terms and pathway associations\n• 🌐 Data sharing & collaboration hub for the oyster research community\n\n¡Diviértete explorando el océano!\n\n\n\n\n\n\n\n👉 Explore JBrowse Genome Browser\n  \n\nFor questions or feedback, please submit an issue 🧬"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Platform accompanying manuscript:\nNon-coding RNA Repertoire in Reef-Building Corals Jill Ashey, Javier A. Rodriguez-Casariego, Kathleen M. Durkin, Zachary Bengtsson, Samuel J. White, Ariana S. Huffmyer, Danielle M. Becker, Jose M. Eirin-Lopez, Hollie M. Putnam, Steven B. Roberts bioRxiv 2025.03.15.643469; doi: https://doi.org/10.1101/2025.03.15.643469"
+    "text": "¡Diviértete explorando el océano!\nThe OCEAN Genome Browser is an interactive platform for visualizing and exploring the genomes of marine organisms. Designed to support research, education, and discovery, the browser brings together genomic resources from diverse ocean life—from corals and mollusks to fish and crustaceans.\nWhether you’re investigating genes linked to environmental resilience, studying evolutionary adaptations, or simply curious about the hidden molecular stories of the sea, the OCEAN platform offers open access to curated, high-quality genomic datasets.\nGoals • Enable Discovery: Provide a user-friendly interface to explore gene structure, annotations, and functional data. • Support Collaboration: Share data across research teams and institutions working on ocean biodiversity, climate resilience, and conservation. • Promote Open Science: Encourage transparent, accessible, and reproducible use of genomic data for the broader scientific community."
   },
   {
     "objectID": "about.html#species-and-reference-genomes",

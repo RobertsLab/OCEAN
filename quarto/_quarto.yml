@@ -3,7 +3,7 @@ project:
   output-dir: ../docs  # Goes to root-level docs/ folder
 
 website:
-  title: "DIVE Platform"
+  title: "OCEAN"
   navbar:
     left:
       - text: About
@@ -12,11 +12,12 @@ website:
         href: jbrowse/index.html
     right:
       - icon: github
-        href: https://github.com/urol-e5/deep-dive-genome-browser
+        href: https://github.com/RobertsLab/OCEAN
         aria-label: GitHub
 
 format:
   html:
     theme: simplex
+    css: styles.css
 
     toc: true
