@@ -17,8 +17,6 @@ website:
 
 format:
   html:
-    theme:
-      light: litera
-      dark: darkly
+    theme: simplex
 
     toc: true

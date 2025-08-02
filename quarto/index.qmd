@@ -1,8 +1,18 @@
 # Welcome to OCEAN 
 
-Data-driven Insights into Variation and Epigenetics across coral species. This data delivery platform spotlights a genome browser to explore non-coding RNA features across three species.
+OCEAN is an integrated web platform dedicated to advancing research on Ostrea chilensis, the Chilean flat oyster. By combining high-resolution genomic data with cutting-edge epigenomic insights, OCEAN supports researchers exploring gene regulation, environmental plasticity, and resilience in this ecologically and economically important marine species.
 
-![](img/ocean.png){fig-align="center" width="500px"}
+The platform offers:   
+	•	🧬 Genome browser for O. chilensis   
+	•	🔍 Epigenetic data    
+	•	📊 Interactive tools for gene expression and regulatory region analysis    
+	•	🧠 Curated annotations including GO terms and pathway associations    
+	•	🌐 Data sharing & collaboration hub for the oyster research community   
+
+
+
+
+![](http://gannet.fish.washington.edu/seashell/snaps/Monosnap_DIVE_Platform_2025-08-02_13-29-50.png){fig-align="center" width="450px"}
 
 
 <div style="display: flex; align-items: center; gap: 1em;">

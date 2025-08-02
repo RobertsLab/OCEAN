@@ -2,17 +2,17 @@
   "baseUrl": "jbrowse/",
   "assemblies": [
     {
-      "name": "Custom_Assembly",
+      "name": "Assembly 1.0",
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "custom_refseq",
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "uri": "data/v1/merged_out.fasta.TBtools.fa"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/merged_out.fasta.TBtools.fa"
           },
           "faiLocation": {
-            "uri": "data/v1/merged_out.fasta.TBtools.fa.fai"
+            "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/merged_out.fasta.TBtools.fa.fai"
           }
         }
       }
@@ -51,7 +51,7 @@
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
-          "uri": "data/v1/repeat.gff3"
+          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/repeat.gff3"
         }
       }
     }
