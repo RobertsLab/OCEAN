@@ -1,0 +1,18 @@
+# Welcome to OCEAN 
+
+Data-driven Insights into Variation and Epigenetics across coral species. This data delivery platform spotlights a genome browser to explore non-coding RNA features across three species.
+
+![](img/ocean.png){fig-align="center" width="500px"}
+
+
+<div style="display: flex; align-items: center; gap: 1em;">
+
+<span style="font-size: 1.1em;">👉 <a href="jbrowse/index.html">Explore JBrowse Genome Browser</a></span>
+
+<a href="https://github.com/urol-e5/deep-dive-genome-browser/releases">
+  <img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser" style="height: 1.4em;" />
+</a>
+
+</div>
+
+For questions or feedback, [please submit an issue](https://github.com/urol-e5/deep-dive-genome-browser/issues/new/choose) 🧬

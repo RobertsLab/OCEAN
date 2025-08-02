@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to OCEAN",
+    "section": "",
+    "text": "Welcome to OCEAN\nData-driven Insights into Variation and Epigenetics across coral species. This data delivery platform spotlights a genome browser to explore non-coding RNA features across three species.\n\n\n\n\n\n\n👉 Explore JBrowse Genome Browser\n  \n\nFor questions or feedback, please submit an issue 🧬"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Platform accompanying manuscript:\nNon-coding RNA Repertoire in Reef-Building Corals Jill Ashey, Javier A. Rodriguez-Casariego, Kathleen M. Durkin, Zachary Bengtsson, Samuel J. White, Ariana S. Huffmyer, Danielle M. Becker, Jose M. Eirin-Lopez, Hollie M. Putnam, Steven B. Roberts bioRxiv 2025.03.15.643469; doi: https://doi.org/10.1101/2025.03.15.643469"
+  },
+  {
+    "objectID": "about.html#species-and-reference-genomes",
+    "href": "about.html#species-and-reference-genomes",
+    "title": "About",
+    "section": "🧬 Species and Reference Genomes",
+    "text": "🧬 Species and Reference Genomes\nThis genome browser supports exploration of coral species included in our genomic analyses. For several species, direct reference genomes are not yet available. In these cases, we selected closely related species with high-quality assemblies as references, based on evolutionary proximity, morphological similarity, and assembly quality.\n\n🔹 Acropora pulchra🔹 Pocillopora tuahiniensis🔹 Porites evermanni\n\n\n\nReference Genome: Acropora millepora\nSource: NCBI PRJNA633778\nGenome Size: ~475 Mbp\nN50: 19.8 Mbp\nProtein-Coding Genes: 28,188\n\nAlthough A. pulchra does not have a published genome, A. millepora is used as a reference due to their close evolutionary relationship and documented ability to interbreed (Van Oppen et al., 2001, 2002).\n\n\n\n\nReference Genome: Pocillopora meandrina\nSource: Stephens et al., 2022\nGenome Size: ~377 Mbp\nN50: 10 Mbp\nProtein-Coding Genes: 31,840\n\nP. tuahiniensis does not yet have a published genome. P. meandrina was selected as a reference because of its morphological similarity and close evolutionary relationship. Although P. verrucosa is more closely related phylogenetically, P. meandrina provides a higher-quality assembly (N50 = 10 Mbp vs. 0.334 Mbp) and more comprehensive annotation.\n\n\n\n\nReference Genome: Porites evermanni\nSource: Genoscope Coral Genomes\nGenome Size: ~497 Mbp\nN50: 0.17 Mbp\nProtein-Coding Genes: 40,389\n\nThis genome was assembled from a sample collected in Mo’orea and is used directly in analyses without substitution."
+  },
+  {
+    "objectID": "about.html#featured-looks",
+    "href": "about.html#featured-looks",
+    "title": "About",
+    "section": "Featured Looks 👀",
+    "text": "Featured Looks 👀\n\nmir-100"
+  }
+]

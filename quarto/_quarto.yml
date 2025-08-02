@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: ../docs  # Goes to root-level docs/ folder
+
+website:
+  title: "DIVE Platform"
+  navbar:
+    left:
+      #- text: Home
+      #  file: index.qmd
+      - text: About
+        file: about.qmd
+      - text: Genome Browser
+        href: jbrowse/index.html  # Relative link to JBrowse's index
+    right:
+      - icon: github
+        href: https://github.com/urol-e5/deep-dive-genome-browser
+        aria-label: GitHub
+format:
+  html:
+    css: styles.css  
