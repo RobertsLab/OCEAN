@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Explore the Ocean"
 editor: 
   markdown: 
     wrap: 72
