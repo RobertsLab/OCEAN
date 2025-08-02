@@ -6,16 +6,19 @@ website:
   title: "DIVE Platform"
   navbar:
     left:
-      #- text: Home
-      #  file: index.qmd
       - text: About
         file: about.qmd
       - text: Genome Browser
-        href: jbrowse/index.html  # Relative link to JBrowse's index
+        href: jbrowse/index.html
     right:
       - icon: github
         href: https://github.com/urol-e5/deep-dive-genome-browser
         aria-label: GitHub
+
 format:
   html:
-    css: styles.css  
+    theme:
+      light: litera
+      dark: darkly
+
+    toc: true

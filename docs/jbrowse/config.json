@@ -1,0 +1,59 @@
+{
+  "baseUrl": "jbrowse/",
+  "assemblies": [
+    {
+      "name": "Custom_Assembly",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "custom_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "data/v1/merged_out.fasta.TBtools.fa"
+          },
+          "faiLocation": {
+            "uri": "data/v1/merged_out.fasta.TBtools.fa.fai"
+          }
+        }
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "gene_annotations",
+      "name": "Gene Annotations",
+      "assemblyNames": ["Custom_Assembly"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/v1/GN.gene.gff3"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ncrna_annotations",
+      "name": "ncRNA",
+      "assemblyNames": ["Custom_Assembly"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/v1/ncRNA.gff3"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "repeat_annotations",
+      "name": "Repeats",
+      "assemblyNames": ["Custom_Assembly"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "data/v1/repeat.gff3"
+        }
+      }
+    }
+  ]
+}
