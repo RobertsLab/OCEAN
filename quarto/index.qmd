@@ -5,16 +5,28 @@ editor:
     wrap: 72
 ---
 
-<div style="text-align: center; font-size: 1.5em; margin-top: 2em;">
-  ¡Diviértete explorando el océano!
-</div>
+OCEAN (***O**stra **c**hilensis*: **E**pigénoma **A**nálisis en **N**et)
+is an integrated web platform dedicated to advancing research on *Ostrea
+chilensis*, the Chilean flat oyster. By combining high-resolution
+genomic data with cutting-edge epigenomic insights, OCEAN supports
+researchers exploring gene regulation, environmental plasticity, and
+resilience in this ecologically important marine species.
 
-![](http://gannet.fish.washington.edu/seashell/snaps/Monosnap_DIVE_Platform_2025-08-02_13-29-50.png){fig-align="center" width="450px"}
-
-::: {style="display: flex; align-items: center; gap: 1em;"}
-[👉 <a href="jbrowse/index.html">Explore JBrowse Genome Browser</a>]{style="font-size: 1.1em;"}
-
-<a href="https://github.com/urol-e5/deep-dive-genome-browser/releases"> <img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser" style="height: 1.4em;"/> </a>
+::: {style="text-align: center; font-size: 1.5em; margin-top: 2em;"}
+¡Diviértete explorando el océano!
 :::
 
-For questions or feedback, [please submit an issue](https://github.com/RobertsLab/OCEAN/issues/new/choose) 🧬
+![](http://gannet.fish.washington.edu/seashell/snaps/Monosnap_DIVE_Platform_2025-08-02_13-29-50.png){fig-align="center"
+width="450px"}
+
+::: {style="display: flex; align-items: center; gap: 1em;"}
+[👉 <a href="jbrowse/index.html">Explore JBrowse Genome
+Browser</a>]{style="font-size: 1.1em;"}
+
+<a href="https://github.com/urol-e5/deep-dive-genome-browser/releases">
+<img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser" style="height: 1.4em;"/>
+</a>
+:::
+
+For questions or feedback, [please submit an
+issue](https://github.com/RobertsLab/OCEAN/issues/new/choose) 🧬
