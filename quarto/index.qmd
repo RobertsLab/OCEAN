@@ -16,7 +16,7 @@ resilience in this ecologically important marine species.
 ¡Diviértete explorando el océano!
 :::
 
-![](http://gannet.fish.washington.edu/seashell/snaps/Monosnap_DIVE_Platform_2025-08-02_13-29-50.png){fig-align="center"
+![](img/ocean.png){fig-align="center"
 width="450px"}
 
 ::: {style="display: flex; align-items: center; gap: 1em;"}
