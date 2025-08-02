@@ -5,34 +5,25 @@ editor:
     wrap: 72
 ---
 
-**¡Diviértete explorando el océano!**
+OCEAN is an integrated web platform dedicated to advancing research on *Ostrea chilensis*, the Chilean flat oyster. By combining high-resolution genomic data with cutting-edge epigenomic insights, OCEAN supports researchers exploring gene regulation, environmental plasticity, and resilience in this ecologically important marine species.
 
-The OCEAN Genome Browser is an interactive platform for visualizing and
-exploring the genomes of marine organisms. Designed to support research,
-education, and discovery, the browser brings together genomic resources
-from diverse ocean life---from corals and mollusks to fish and
-crustaceans.
-
-Whether you're investigating genes linked to environmental resilience,
-studying evolutionary adaptations, or simply curious about the hidden
-molecular stories of the sea, the OCEAN platform offers open access to
-curated, high-quality genomic datasets.
-
-Goals • Enable Discovery: Provide a user-friendly interface to explore
-gene structure, annotations, and functional data. • Support
-Collaboration: Share data across research teams and institutions working
-on ocean biodiversity, climate resilience, and conservation. • Promote
-Open Science: Encourage transparent, accessible, and reproducible use of
-genomic data for the broader scientific community.
+The platform offers:\
+• 🧬 Genome browser for *O. chilensis*\
+• 🔍 Epigenetic data\
+• 📊 Interactive tools for gene expression and regulatory region analysis\
+• 🧠 Curated annotations including GO terms and pathway associations\
+• 🌐 Data sharing & collaboration hub for the oyster research community
 
 ::: badges
-<p><a href="https://github.com/urol-e5/deep-dive-genome-browser/releases">
-<img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser"/>
+<p><a href="https://github.com/RobertsLab/OCEAN/releases">
+<img src="https://img.shields.io/github/v/release/RobertsLab/OCEAN"/>
 </a>
 <a href="https://doi.org/10.5281/zenodo.16107396"><img src="https://zenodo.org/badge/1018173021.svg" alt="DOI"/></a>
-<img src="https://img.shields.io/github/last-commit/urol-e5/deep-dive-genome-browser"/>
-<img src="https://img.shields.io/badge/jbrowse-v3.6.2-darkblue"/></p>
+<img src="https://img.shields.io/github/last-commit/RobertsLab/OCEAN"/>
+<img src="https://img.shields.io/badge/jbrowse-v3.6.4-darkblue"/></p>
 :::
+
+
 
 ## Featured Looks 👀
 
