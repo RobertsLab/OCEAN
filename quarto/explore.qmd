@@ -1,0 +1,29 @@
+---
+title: "Functional Annotation Summary"
+format: html
+editor: visual
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(DT)
+library(readxl)
+library(plotly)
+
+# Base path for input files
+base_path <- "../docs/jbrowse/function/"
+```
+
+<embed src="../docs/jbrowse/function/GO_barplot.pdf" width="100%" height="600px" type="application/pdf">
+
+
+🧪 Functional Tables
+
+GO Terms
+
+
+
