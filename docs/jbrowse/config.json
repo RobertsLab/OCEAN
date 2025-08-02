@@ -23,7 +23,7 @@
       "type": "FeatureTrack",
       "trackId": "gene_annotations",
       "name": "Gene Annotations",
-      "assemblyNames": ["Custom_Assembly"],
+      "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
@@ -35,7 +35,7 @@
       "type": "FeatureTrack",
       "trackId": "ncrna_annotations",
       "name": "ncRNA",
-      "assemblyNames": ["Custom_Assembly"],
+      "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
@@ -47,7 +47,7 @@
       "type": "FeatureTrack",
       "trackId": "repeat_annotations",
       "name": "Repeats",
-      "assemblyNames": ["Custom_Assembly"],
+      "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "Gff3Adapter",
         "gffLocation": {
