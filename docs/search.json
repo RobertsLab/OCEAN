@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "OCEAN is an integrated web platform dedicated to advancing research on Ostrea chilensis, the Chilean flat oyster. By combining high-resolution genomic data with cutting-edge epigenomic insights, OCEAN supports researchers exploring gene regulation, environmental plasticity, and resilience in this ecologically important marine species.\nThe platform offers:\n• 🧬 Genome browser for O. chilensis\n• 🔍 Epigenetic data\n• 📊 Interactive tools for gene expression and regulatory region analysis\n• 🧠 Curated annotations including GO terms and pathway associations\n• 🌐 Data sharing & collaboration hub for the oyster research community"
+    "text": "OCEAN is an integrated web platform dedicated to advancing research on Ostrea chilensis, the Chilean flat oyster.\nThe platform offers:\n• 🧬 Genome browser for O. chilensis\n• 🔍 Epigenetic data\n• 📊 Interactive tools for gene expression and regulatory region analysis\n• 🧠 Curated annotations including GO terms and pathway associations\n• 🌐 Data sharing & collaboration hub for the oyster research community"
   },
   {
     "objectID": "about.html#featured-looks",
@@ -26,5 +26,12 @@
     "title": "Functional Annotation Summary",
     "section": "",
     "text": "🧪 Functional Tables\nGO Terms"
+  },
+  {
+    "objectID": "about.html#featured-genome-browser-views",
+    "href": "about.html#featured-genome-browser-views",
+    "title": "About",
+    "section": "Featured Genome Browser Views 👀",
+    "text": "Featured Genome Browser Views 👀"
   }
 ]

@@ -23,8 +23,8 @@ width="450px"}
 [👉 <a href="jbrowse/index.html">Explore JBrowse Genome
 Browser</a>]{style="font-size: 1.1em;"}
 
-<a href="https://github.com/urol-e5/deep-dive-genome-browser/releases">
-<img src="https://img.shields.io/github/v/release/urol-e5/deep-dive-genome-browser" style="height: 1.4em;"/>
+<a href="https://github.com/RobertsLab/OCEAN/releases">
+<img src="https://img.shields.io/github/v/release/RobertsLab/OCEAN" style="height: 1.4em;"/>
 </a>
 :::
 
