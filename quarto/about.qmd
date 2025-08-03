@@ -36,6 +36,8 @@ The platform offers:\
 
 Our focus to date is from oysters from three locales
 
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F" width="640" height="480"></iframe>
+
 | Location      | Latitude    | Longitude    | Salinity         | Freshwater Input        | Tidal Exchange | Stratification      | Human Influence  |
 |---------------|-------------|--------------|------------------|-------------------------|----------------|---------------------|------------------|
 | Río Pudeto    | -41.9118° S | -73.7532° W  | Moderate (brackish) | Moderate river inflow | Moderate       | Moderate            | Moderate         |
