@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+output: html_document
+date: "2025-08-03"
+---
+
+```{bash}
+fgrep ">" ../docs/jbrowse/data/HapA/*fa
+cat ../docs/jbrowse/data/HapA/*fa.fai
+```
+```{bash}
+fgrep ">" ../docs/jbrowse/data/HapB/*fa
+cat ../docs/jbrowse/data/HapB/*fa.fai
+```
+```{bash}
+fgrep ">" ../docs/jbrowse/data/v1/*fa
+cat ../docs/jbrowse/data/v1/*fa.fai
+```
+
+```{bash}
+fgrep ">" ../docs/jbrowse/data/v0.9/*fasta
+cat ../docs/jbrowse/data/v0.9/*fasta.fai
+```

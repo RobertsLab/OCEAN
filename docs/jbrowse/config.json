@@ -16,6 +16,30 @@
           }
         }
       }
+    },
+    {
+      "name": "Och_HapA",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hapa_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": { "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/HapA/Och_HapA_assembly.fa" },
+          "faiLocation":   { "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/HapA/Och_HapA_assembly.fa.fai" }
+        }
+      }
+    },
+    {
+      "name": "Och_HapB",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "hapb_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": { "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/HapB/Och_HapB_assembly.fa" },
+          "faiLocation":   { "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/HapB/Och_HapB_assembly.fa.fai" }
+        }
+      }
     }
   ],
   "tracks": [
@@ -26,9 +50,7 @@
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "Gff3Adapter",
-        "gffLocation": {
-          "uri": "data/v1/GN.gene.gff3"
-        }
+        "gffLocation": { "uri": "data/v1/GN.gene.gff3" }
       }
     },
     {
@@ -38,9 +60,7 @@
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "Gff3Adapter",
-        "gffLocation": {
-          "uri": "data/v1/ncRNA.gff3"
-        }
+        "gffLocation": { "uri": "data/v1/ncRNA.gff3" }
       }
     },
     {
@@ -50,9 +70,7 @@
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "Gff3Adapter",
-        "gffLocation": {
-          "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/repeat.gff3"
-        }
+        "gffLocation": { "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/repeat.gff3" }
       }
     },
     {
@@ -60,10 +78,7 @@
       "trackId": "Pum_barcode02",
       "name": "Pum_barcode02",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode02.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode02.bw" } },
       "color": "blue"
     },
     {
@@ -71,10 +86,7 @@
       "trackId": "Pum_barcode12_1",
       "name": "Pum_barcode12_1",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode12_1.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode12_1.bw" } },
       "color": "blue"
     },
     {
@@ -82,10 +94,7 @@
       "trackId": "Pum_barcode13",
       "name": "Pum_barcode13",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode13.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode13.bw" } },
       "color": "blue"
     },
     {
@@ -93,10 +102,7 @@
       "trackId": "Pum_barcode13_1",
       "name": "Pum_barcode13_1",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode13_1.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Pum_barcode13_1.bw" } },
       "color": "blue"
     },
     {
@@ -104,10 +110,7 @@
       "trackId": "Qui_barcode01",
       "name": "Qui_barcode01",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode01.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode01.bw" } },
       "color": "green"
     },
     {
@@ -115,10 +118,7 @@
       "trackId": "Qui_barcode01_1",
       "name": "Qui_barcode01_1",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode01_1.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode01_1.bw" } },
       "color": "green"
     },
     {
@@ -126,10 +126,7 @@
       "trackId": "Qui_barcode02_1",
       "name": "Qui_barcode02_1",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode02_1.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode02_1.bw" } },
       "color": "green"
     },
     {
@@ -137,10 +134,7 @@
       "trackId": "Qui_barcode12",
       "name": "Qui_barcode12",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode12.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Qui_barcode12.bw" } },
       "color": "green"
     },
     {
@@ -148,10 +142,7 @@
       "trackId": "Rio_barcode03",
       "name": "Rio_barcode03",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode03.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode03.bw" } },
       "color": "red"
     },
     {
@@ -159,10 +150,7 @@
       "trackId": "Rio_barcode03_1",
       "name": "Rio_barcode03_1",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode03_1.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode03_1.bw" } },
       "color": "red"
     },
     {
@@ -170,10 +158,7 @@
       "trackId": "Rio_barcode14",
       "name": "Rio_barcode14",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode14.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode14.bw" } },
       "color": "red"
     },
     {
@@ -181,11 +166,32 @@
       "trackId": "Rio_barcode14_1",
       "name": "Rio_barcode14_1",
       "assemblyNames": ["Assembly 1.0"],
-      "adapter": {
-        "type": "BigWigAdapter",
-        "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode14_1.bw" }
-      },
+      "adapter": { "type": "BigWigAdapter", "bigWigLocation": { "uri": "data/v1/exp_01/Rio_barcode14_1.bw" } },
       "color": "red"
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "HapA_vs_HapB",
+      "name": "HapA vs HapB Synteny",
+      "assemblyNames": ["Och_HapA", "Och_HapB"],
+      "adapter": { "type": "PAFAdapter", "pafLocation": { "uri": "data/syn/HapA_vs_HapB.paf" } },
+      "renderer": { "type": "SyntenyRenderer" }
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "TB_vs_HapA",
+      "name": "TB vs HapA Synteny",
+      "assemblyNames": ["Assembly 1.0", "Och_HapA"],
+      "adapter": { "type": "PAFAdapter", "pafLocation": { "uri": "data/syn/TB_vs_HapA.paf" } },
+      "renderer": { "type": "SyntenyRenderer" }
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "TB_vs_HapB",
+      "name": "TB vs HapB Synteny",
+      "assemblyNames": ["Assembly 1.0", "Och_HapB"],
+      "adapter": { "type": "PAFAdapter", "pafLocation": { "uri": "data/syn/TB_vs_HapB.paf" } },
+      "renderer": { "type": "SyntenyRenderer" }
     }
   ]
 }
