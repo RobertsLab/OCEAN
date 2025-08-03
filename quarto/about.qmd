@@ -32,3 +32,14 @@ The platform offers:\
 
 
 
+## Site Location Information 
+
+Our focus to date is from oysters from three locales
+
+| Location      | Latitude    | Longitude    | Salinity         | Freshwater Input        | Tidal Exchange | Stratification      | Human Influence  |
+|---------------|-------------|--------------|------------------|-------------------------|----------------|---------------------|------------------|
+| Río Pudeto    | -41.9118° S | -73.7532° W  | Moderate (brackish) | Moderate river inflow | Moderate       | Moderate            | Moderate         |
+| Pumalín       | -42.5195° S | -72.6483° W  | Low (oligohaline) | High (glacial & river) | Low            | Strongly stratified | Low (pristine)   |
+| Isla Quihua   | -41.7464° S | -73.2483° W  | High (marine)    | Low to moderate         | High           | Weak (well-mixed)   | Moderate to high |
+
+
