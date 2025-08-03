@@ -34,7 +34,7 @@ datatable(
   options = list(
     dom = 'Bfrtip',
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
-    pageLength = 10
+    pageLength = 4
   ),
   filter = "top",
   rownames = FALSE
@@ -68,7 +68,7 @@ datatable(
   options = list(
     dom = 'Bfrtip',
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
-    pageLength = 10
+    pageLength = 6
   )
 )
 ```
@@ -92,7 +92,7 @@ datatable(
   options = list(
     dom = 'Bfrtip',
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
-    pageLength = 10
+    pageLength = 6
   ),
   filter = "top"
 )

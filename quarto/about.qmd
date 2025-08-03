@@ -32,7 +32,10 @@ The platform offers:\
 
 
 
-## Population and Site Location Information 
+## Population Information 
+
+
+### Site Location Information
 
 Our focus to date is from oysters from three locales
 
