@@ -192,6 +192,23 @@
       "assemblyNames": ["Assembly 1.0", "Och_HapB"],
       "adapter": { "type": "PAFAdapter", "pafLocation": { "uri": "data/syn/TB_vs_HapB.paf" } },
       "renderer": { "type": "SyntenyRenderer" }
+    },
+    {
+  "type": "AlignmentsTrack",
+  "trackId": "Pum_barcode13_1_bam",
+  "name": "Pum_barcode13_1 Alignments",
+  "assemblyNames": ["Assembly 1.0"],
+  "adapter": {
+    "type": "BamAdapter",
+    "bamLocation": {
+      "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/project-ostrea-chil/output/04-align-v1/Pum_barcode13_1_combined.sorted.bam"
+    },
+    "index": {
+      "location": {
+        "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/project-ostrea-chil/output/04-align-v1/Pum_barcode13_1_combined.sorted.bam.bai"
+      }
     }
+  }
+}
   ]
 }
