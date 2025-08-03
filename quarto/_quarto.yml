@@ -8,6 +8,8 @@ website:
     left:
       - text: About
         file: about.qmd
+      - text: Annotations
+        href: explore.html
       - text: Genome Browser
         href: jbrowse/index.html
     right:
