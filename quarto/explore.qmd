@@ -72,3 +72,32 @@ datatable(
   )
 )
 ```
+
+
+## Gene GFF 
+
+```{r, echo=FALSE}
+# Read the GFF3 file (skip comment lines starting with "#")
+gff <- read_tsv(
+  "../docs/jbrowse/data/v1/GN.gene.gff3",
+  comment = "#",
+  col_names = c("seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes")
+)
+
+
+
+datatable(
+  gff,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    pageLength = 10
+  ),
+  filter = "top"
+)
+
+
+
+```
+
