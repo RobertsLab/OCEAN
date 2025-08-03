@@ -1,5 +1,5 @@
 ---
-title: "Functional Annotation Summary"
+title: "Genome Annotation"
 format: html
 editor: visual
 execute:
@@ -13,17 +13,62 @@ library(tidyverse)
 library(DT)
 library(readxl)
 library(plotly)
+library(readr)
+library(dplyr)
 
-# Base path for input files
-base_path <- "../docs/jbrowse/function/"
 ```
 
-<embed src="../docs/jbrowse/function/GO_barplot.pdf" width="100%" height="600px" type="application/pdf">
+
+## NCBI NR BLAST
+
+```{r, echo=FALSE}
 
 
-🧪 Functional Tables
+# Read the CSV file
+nr_data <- read_csv("http://gannet.fish.washington.edu/seashell/snaps/nr.csv")  # If running in RStudio, adjust path if needed
 
-GO Terms
+# Create interactive datatable
+datatable(
+  nr_data,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    pageLength = 10
+  ),
+  filter = "top",
+  rownames = FALSE
+)
+```
 
 
+## Pathways 
 
+```{r, echo=FALSE}
+
+# Read your Pathway CSV
+# Read the CSV
+df <- read_csv("http://gannet.fish.washington.edu/seashell/snaps/pathway_table.csv")
+
+# Create clickable link column
+df <- df %>%
+  mutate(Link = paste0(
+    "<a href='jbrowse/function/pathway/", PathwayId, ".png' target='_blank'>", PathwayId, "</a>"
+  ))
+
+# Move Link column to position 3
+df <- df %>%
+  select(1:2, Link, everything())
+
+# Display interactive table
+datatable(
+  df,
+  escape = FALSE,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    pageLength = 10
+  )
+)
+```

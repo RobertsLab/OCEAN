@@ -21,3 +21,50 @@ cat ../docs/jbrowse/data/v1/*fa.fai
 fgrep ">" ../docs/jbrowse/data/v0.9/*fasta
 cat ../docs/jbrowse/data/v0.9/*fasta.fai
 ```
+
+
+```{python}
+pip install matplotlib cartopy
+```
+
+```{python}
+import matplotlib.pyplot as plt
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+
+# Location data
+locations = {
+    "Río Pudeto": (-73.7532, -41.9118),
+    "Pumalín": (-72.6483, -42.5195),
+    "Isla Quihua": (-73.2483, -41.7464),
+}
+
+lons, lats = zip(*locations.values())
+labels = list(locations.keys())
+
+# Create a map
+fig = plt.figure(figsize=(8, 10))
+ax = plt.axes(projection=ccrs.PlateCarree())
+
+# Set extent: focus on relevant region of southern Chile
+ax.set_extent([-74.5, -72.0, -43, -41.5], crs=ccrs.PlateCarree())
+
+# Add land, coastlines, and borders
+ax.add_feature(cfeature.LAND, facecolor='lightgray')
+ax.add_feature(cfeature.COASTLINE)
+ax.add_feature(cfeature.BORDERS, linestyle=':')
+
+# Plot sites
+ax.scatter(lons, lats, color='red', s=100, edgecolor='k', zorder=5, label='Sampling Site')
+
+# Add labels
+for lon, lat, label in zip(lons, lats, labels):
+    ax.text(lon + 0.05, lat, label, fontsize=12, weight='bold', transform=ccrs.PlateCarree())
+
+# Add title
+plt.title("Sampling Locations of Ostrea chilensis in Southern Chile", fontsize=14)
+plt.legend(loc='lower right')
+plt.show()
+```
+
+
