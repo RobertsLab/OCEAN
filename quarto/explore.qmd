@@ -79,7 +79,7 @@ datatable(
 ```{r, echo=FALSE}
 # Read the GFF3 file (skip comment lines starting with "#")
 gff <- read_tsv(
-  "../docs/jbrowse/data/v1/GN.gene.gff3",
+  "http://gannet.fish.washington.edu/seashell/snaps/gene.gff3",
   comment = "#",
   col_names = c("seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes")
 )
