@@ -55,8 +55,6 @@
         }
       }
     },
-
-    // BigWig Quantitative Tracks start here
     {
       "type": "QuantitativeTrack",
       "trackId": "Pum_barcode02",
