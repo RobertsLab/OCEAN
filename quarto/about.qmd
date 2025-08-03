@@ -25,17 +25,20 @@ The platform offers:\
 
 
 
-## Featured Genome Browser Views 👀
+
+# Featured Genome Browser Views 👀
 
 
-- [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-FKC11eNHeX&password=CDAM0)
+- ### [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX)
 
 
 
-## Population Information 
 
 
-### Site Location Information
+# Population Information 
+
+
+## Site Location Information
 
 Our focus to date is from oysters from three locales
 
@@ -48,6 +51,6 @@ Our focus to date is from oysters from three locales
 | Isla Quihua   | -41.7464° S | -73.2483° W  | High (marine)    | Low to moderate         | High           | Weak (well-mixed)   | Moderate to high |
 
 
-### Genetic Relatedness
+## Genetic Relatedness
 
 ![](http://gannet.fish.washington.edu/seashell/snaps/Monosnap_Monosnap_2025-08-03_15-06-38.png)
