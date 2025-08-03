@@ -5,7 +5,7 @@ editor:
     wrap: 72
 ---
 
-OCEAN is an integrated web platform dedicated to advancing research on *Ostrea chilensis*, the Chilean flat oyster. By combining high-resolution genomic data with cutting-edge epigenomic insights, OCEAN supports researchers exploring gene regulation, environmental plasticity, and resilience in this ecologically important marine species.
+OCEAN is an integrated web platform dedicated to advancing research on *Ostrea chilensis*, the Chilean flat oyster.
 
 The platform offers:\
 • 🧬 Genome browser for *O. chilensis*\
@@ -25,8 +25,10 @@ The platform offers:\
 
 
 
-## Featured Looks 👀
+## Featured Genome Browser Views 👀
 
+
+- [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-FKC11eNHeX&password=CDAM0)
 
 
 
