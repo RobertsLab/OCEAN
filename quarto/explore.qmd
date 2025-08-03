@@ -23,13 +23,15 @@ library(dplyr)
 
 ```{r, echo=FALSE}
 
-
 # Read the CSV file
-nr_data <- read_csv("http://gannet.fish.washington.edu/seashell/snaps/nr.csv")  # If running in RStudio, adjust path if needed
+nr_data <- read_csv("http://gannet.fish.washington.edu/seashell/snaps/nr.csv")
+
+# Subset the relevant columns
+nr_subset <- nr_data[, c("query_name", "nr.hit_name", "description", "E value")]
 
 # Create interactive datatable
 datatable(
-  nr_data,
+  nr_subset,
   extensions = 'Buttons',
   options = list(
     dom = 'Bfrtip',
