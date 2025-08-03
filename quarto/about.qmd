@@ -36,7 +36,7 @@ The platform offers:\
 
 Our focus to date is from oysters from three locales
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
 
 | Location      | Latitude    | Longitude    | Salinity         | Freshwater Input        | Tidal Exchange | Stratification      | Human Influence  |
 |---------------|-------------|--------------|------------------|-------------------------|----------------|---------------------|------------------|
