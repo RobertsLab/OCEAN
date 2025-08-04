@@ -6,12 +6,14 @@ editor:
     wrap: 72
 ---
 
-OCEAN is an integrated web platform dedicated to advancing research on *Ostrea chilensis*, the Chilean flat oyster.
+OCEAN is an integrated web platform dedicated to advancing research on
+*Ostrea chilensis*, the Chilean flat oyster.
 
 The platform offers:\
 • 🧬 Genome browser for *O. chilensis*\
 • 🔍 Epigenetic data\
-• 📊 Interactive tools for gene expression and regulatory region analysis\
+• 📊 Interactive tools for gene expression and regulatory region
+analysis\
 • 🧠 Curated annotations including GO terms and pathway associations\
 • 🌐 Data sharing & collaboration hub for the oyster research community
 
@@ -23,32 +25,33 @@ The platform offers:\
 <img src="https://img.shields.io/badge/jbrowse-v3.6.4-darkblue"/></p>
 :::
 
-
-
+------------------------------------------------------------------------
 
 # Featured Genome Browser Views 👀
 
+-   
 
-- ### [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX)
+    ### [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX)
 
+------------------------------------------------------------------------
 
-
-
-
-# Population Information 
-
+# Population Information
 
 ## Site Location Information
 
 Our focus to date is from oysters from three locales
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F&noprof=1" width="90%" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&amp;ehbc=2E312F&amp;noprof=1" width="90%" height="480">
 
-| Location      | Salinity         | Freshwater Input        | Tidal Exchange | Human Influence  |
-|---------------|------------------|-------------------------|----------------|------------------|
-| Río Pudeto    | Moderate (brackish) | Moderate river inflow | Moderate       | Moderate         |
-| Pumalín       | Low (oligohaline) | High (glacial & river) | Low            | Low (pristine)   |
-| Isla Quihua   | High (marine)    | Low to moderate         | High           | Moderate to high |
+</iframe>
+
+| Location | Salinity | Freshwater Input | Tidal Exchange | Human Influence |
+|--------------|--------------|----------------|--------------|--------------|
+| Río Pudeto | Moderate (brackish) | Moderate river inflow | Moderate | Moderate |
+| Pumalín | Low (oligohaline) | High (glacial & river) | Low | Low (pristine) |
+| Isla Quihua | High (marine) | Low to moderate | High | Moderate to high |
+
+
 
 ## Genetic Relatedness
 
