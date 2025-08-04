@@ -9,7 +9,7 @@ website:
       - text: About
         file: about.qmd
       - text: Annotations
-        href: explore.html
+        href: explore.qmd
       - text: Genome Browser
         href: jbrowse/index.html
     right:
