@@ -1,5 +1,6 @@
 ---
 title: "About"
+format: html 
 editor: 
   markdown: 
     wrap: 72

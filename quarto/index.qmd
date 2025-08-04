@@ -1,5 +1,6 @@
 ---
 title: "Explore the Ocean"
+format: html 
 editor: 
   markdown: 
     wrap: 72
