@@ -19,7 +19,6 @@ The platform offers:\
 <p><a href="https://github.com/RobertsLab/OCEAN/releases">
 <img src="https://img.shields.io/github/v/release/RobertsLab/OCEAN"/>
 </a>
-<a href="https://doi.org/10.5281/zenodo.16107396"><img src="https://zenodo.org/badge/1018173021.svg" alt="DOI"/></a>
 <img src="https://img.shields.io/github/last-commit/RobertsLab/OCEAN"/>
 <img src="https://img.shields.io/badge/jbrowse-v3.6.4-darkblue"/></p>
 :::
@@ -43,14 +42,13 @@ The platform offers:\
 
 Our focus to date is from oysters from three locales
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F&noprof=1" width="90%" height="480"></iframe>
 
-| Location      | Latitude    | Longitude    | Salinity         | Freshwater Input        | Tidal Exchange | Stratification      | Human Influence  |
-|---------------|-------------|--------------|------------------|-------------------------|----------------|---------------------|------------------|
-| Río Pudeto    | -41.9118° S | -73.7532° W  | Moderate (brackish) | Moderate river inflow | Moderate       | Moderate            | Moderate         |
-| Pumalín       | -42.5195° S | -72.6483° W  | Low (oligohaline) | High (glacial & river) | Low            | Strongly stratified | Low (pristine)   |
-| Isla Quihua   | -41.7464° S | -73.2483° W  | High (marine)    | Low to moderate         | High           | Weak (well-mixed)   | Moderate to high |
-
+| Location      | Salinity         | Freshwater Input        | Tidal Exchange | Human Influence  |
+|---------------|------------------|-------------------------|----------------|------------------|
+| Río Pudeto    | Moderate (brackish) | Moderate river inflow | Moderate       | Moderate         |
+| Pumalín       | Low (oligohaline) | High (glacial & river) | Low            | Low (pristine)   |
+| Isla Quihua   | High (marine)    | Low to moderate         | High           | Moderate to high |
 
 ## Genetic Relatedness
 
