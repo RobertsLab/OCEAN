@@ -82,5 +82,12 @@
     "title": "About",
     "section": "Genetic Relatedness",
     "text": "Genetic Relatedness"
+  },
+  {
+    "objectID": "explore.html#uniprot",
+    "href": "explore.html#uniprot",
+    "title": "Genome Annotation",
+    "section": "UniProt",
+    "text": "UniProt"
   }
 ]

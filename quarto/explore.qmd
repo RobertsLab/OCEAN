@@ -42,6 +42,25 @@ datatable(
   rownames = FALSE
 )
 ```
+## UniProt
+
+```{r, echo=FALSE}
+# Read the tab-delimited file from the URL
+uniprot_data <- read_tsv("http://gannet.fish.washington.edu/seashell/snaps/uniprot.txt")
+
+# Display as an interactive datatable
+datatable(
+  uniprot_data,
+  extensions = 'Buttons',
+  options = list(
+    dom = 'Bfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    pageLength = 10
+  ),
+  filter = "top",
+  rownames = FALSE
+)
+```
 
 
 ## Pathways 
