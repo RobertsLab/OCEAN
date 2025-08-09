@@ -2,19 +2,63 @@
 ##source-version rtracklayer 1.58.0
 ##date 2025-08-09
 Chromosome_1B	StringTie	transcript	52040247	52041703	1000	+	.	gene_id "MSTRG.1743"; transcript_id "MSTRG.1743.1";
+Chromosome_1B	StringTie	exon	52040247	52040407	1000	+	.	gene_id "MSTRG.1743"; transcript_id "MSTRG.1743.1"; exon_number "1";
+Chromosome_1B	StringTie	exon	52040518	52040658	1000	+	.	gene_id "MSTRG.1743"; transcript_id "MSTRG.1743.1"; exon_number "2";
+Chromosome_1B	StringTie	exon	52040763	52040855	1000	+	.	gene_id "MSTRG.1743"; transcript_id "MSTRG.1743.1"; exon_number "3";
+Chromosome_1B	StringTie	exon	52040979	52041703	1000	+	.	gene_id "MSTRG.1743"; transcript_id "MSTRG.1743.1"; exon_number "4";
 Chromosome_1B	StringTie	transcript	151406050	151407149	1000	+	.	gene_id "MSTRG.3743"; transcript_id "MSTRG.3743.1";
+Chromosome_1B	StringTie	exon	151406050	151406290	1000	+	.	gene_id "MSTRG.3743"; transcript_id "MSTRG.3743.1"; exon_number "1";
+Chromosome_1B	StringTie	exon	151406390	151406537	1000	+	.	gene_id "MSTRG.3743"; transcript_id "MSTRG.3743.1"; exon_number "2";
+Chromosome_1B	StringTie	exon	151406989	151407149	1000	+	.	gene_id "MSTRG.3743"; transcript_id "MSTRG.3743.1"; exon_number "3";
 Chromosome_1B	StringTie	transcript	187634123	187646102	1000	+	.	gene_id "MSTRG.4398"; transcript_id "MSTRG.4398.1";
+Chromosome_1B	StringTie	exon	187634123	187634354	1000	+	.	gene_id "MSTRG.4398"; transcript_id "MSTRG.4398.1"; exon_number "1";
+Chromosome_1B	StringTie	exon	187645669	187646102	1000	+	.	gene_id "MSTRG.4398"; transcript_id "MSTRG.4398.1"; exon_number "2";
 Chromosome_1B	StringTie	transcript	228765906	228766413	1000	+	.	gene_id "MSTRG.5266"; transcript_id "MSTRG.5266.1";
+Chromosome_1B	StringTie	exon	228765906	228765996	1000	+	.	gene_id "MSTRG.5266"; transcript_id "MSTRG.5266.1"; exon_number "1";
+Chromosome_1B	StringTie	exon	228766081	228766413	1000	+	.	gene_id "MSTRG.5266"; transcript_id "MSTRG.5266.1"; exon_number "2";
 Chromosome_2A	StringTie	transcript	59710962	59712037	1000	.	.	gene_id "MSTRG.6844"; transcript_id "MSTRG.6844.1";
+Chromosome_2A	StringTie	exon	59710962	59712037	1000	.	.	gene_id "MSTRG.6844"; transcript_id "MSTRG.6844.1"; exon_number "1";
 Chromosome_2A	StringTie	transcript	85360403	85384671	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1";
+Chromosome_2A	StringTie	exon	85360403	85360511	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1"; exon_number "1";
+Chromosome_2A	StringTie	exon	85370125	85370228	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1"; exon_number "2";
+Chromosome_2A	StringTie	exon	85374931	85375025	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1"; exon_number "3";
+Chromosome_2A	StringTie	exon	85381187	85381295	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1"; exon_number "4";
+Chromosome_2A	StringTie	exon	85381504	85381631	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1"; exon_number "5";
+Chromosome_2A	StringTie	exon	85384133	85384671	1000	+	.	gene_id "MSTRG.7580"; transcript_id "MSTRG.7580.1"; exon_number "6";
 Chromosome_4A	StringTie	transcript	78326937	78327904	1000	.	.	gene_id "MSTRG.9802"; transcript_id "MSTRG.9802.1";
+Chromosome_4A	StringTie	exon	78326937	78327904	1000	.	.	gene_id "MSTRG.9802"; transcript_id "MSTRG.9802.1"; exon_number "1";
 Chromosome_5B	StringTie	transcript	14008644	14009397	1000	+	.	gene_id "MSTRG.10488"; transcript_id "MSTRG.10488.1";
+Chromosome_5B	StringTie	exon	14008644	14008742	1000	+	.	gene_id "MSTRG.10488"; transcript_id "MSTRG.10488.1"; exon_number "1";
+Chromosome_5B	StringTie	exon	14009136	14009397	1000	+	.	gene_id "MSTRG.10488"; transcript_id "MSTRG.10488.1"; exon_number "2";
 Chromosome_6A	StringTie	transcript	44870791	44877996	1000	+	.	gene_id "MSTRG.14313"; transcript_id "MSTRG.14313.1";
+Chromosome_6A	StringTie	exon	44870791	44871015	1000	+	.	gene_id "MSTRG.14313"; transcript_id "MSTRG.14313.1"; exon_number "1";
+Chromosome_6A	StringTie	exon	44874392	44874547	1000	+	.	gene_id "MSTRG.14313"; transcript_id "MSTRG.14313.1"; exon_number "2";
+Chromosome_6A	StringTie	exon	44875542	44875614	1000	+	.	gene_id "MSTRG.14313"; transcript_id "MSTRG.14313.1"; exon_number "3";
+Chromosome_6A	StringTie	exon	44877862	44877996	1000	+	.	gene_id "MSTRG.14313"; transcript_id "MSTRG.14313.1"; exon_number "4";
 Chromosome_6B	StringTie	transcript	42690913	42696511	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42690913	42691002	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "1"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42692663	42692786	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "2"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42692894	42693000	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "3"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42695352	42695448	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "4"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42695715	42695791	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "5"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42696016	42696161	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "6"; gene_name "GN016607.1"; ref_gene_id "GN016607"
+Chromosome_6B	StringTie	exon	42696259	42696511	1000	+	.	gene_id "MSTRG.15915"; transcript_id "GN016607.1"; exon_number "7"; gene_name "GN016607.1"; ref_gene_id "GN016607"
 Chromosome_6B	StringTie	transcript	63147161	63148190	1000	+	.	gene_id "MSTRG.16480"; transcript_id "MSTRG.16480.1";
+Chromosome_6B	StringTie	exon	63147161	63147325	1000	+	.	gene_id "MSTRG.16480"; transcript_id "MSTRG.16480.1"; exon_number "1";
+Chromosome_6B	StringTie	exon	63147407	63147478	1000	+	.	gene_id "MSTRG.16480"; transcript_id "MSTRG.16480.1"; exon_number "2";
+Chromosome_6B	StringTie	exon	63147589	63148190	1000	+	.	gene_id "MSTRG.16480"; transcript_id "MSTRG.16480.1"; exon_number "3";
 Chromosome_6B	StringTie	transcript	76312514	76318400	1000	-	.	gene_id "MSTRG.16845"; transcript_id "MSTRG.16845.1";
+Chromosome_6B	StringTie	exon	76312514	76313093	1000	-	.	gene_id "MSTRG.16845"; transcript_id "MSTRG.16845.1"; exon_number "1";
+Chromosome_6B	StringTie	exon	76318323	76318400	1000	-	.	gene_id "MSTRG.16845"; transcript_id "MSTRG.16845.1"; exon_number "2";
 Chromosome_7B	StringTie	transcript	53247179	53248126	1000	.	.	gene_id "MSTRG.18869"; transcript_id "MSTRG.18869.1";
+Chromosome_7B	StringTie	exon	53247179	53248126	1000	.	.	gene_id "MSTRG.18869"; transcript_id "MSTRG.18869.1"; exon_number "1";
 Chromosome_7B	StringTie	transcript	129126904	129127348	1000	.	.	gene_id "MSTRG.20229"; transcript_id "MSTRG.20229.1";
+Chromosome_7B	StringTie	exon	129126904	129127348	1000	.	.	gene_id "MSTRG.20229"; transcript_id "MSTRG.20229.1"; exon_number "1";
 Chromosome_7B	StringTie	transcript	137746671	137747168	1000	.	.	gene_id "MSTRG.20359"; transcript_id "MSTRG.20359.1";
+Chromosome_7B	StringTie	exon	137746671	137747168	1000	.	.	gene_id "MSTRG.20359"; transcript_id "MSTRG.20359.1"; exon_number "1";
 Chromosome_7B	StringTie	transcript	170576634	170577763	1000	.	.	gene_id "MSTRG.20866"; transcript_id "MSTRG.20866.1";
+Chromosome_7B	StringTie	exon	170576634	170577763	1000	.	.	gene_id "MSTRG.20866"; transcript_id "MSTRG.20866.1"; exon_number "1";
 Chromosome_8B	StringTie	transcript	64604346	64610947	1000	+	.	gene_id "MSTRG.21977"; transcript_id "MSTRG.21977.1";
+Chromosome_8B	StringTie	exon	64604346	64604495	1000	+	.	gene_id "MSTRG.21977"; transcript_id "MSTRG.21977.1"; exon_number "1";
+Chromosome_8B	StringTie	exon	64607280	64607420	1000	+	.	gene_id "MSTRG.21977"; transcript_id "MSTRG.21977.1"; exon_number "2";
+Chromosome_8B	StringTie	exon	64610665	64610947	1000	+	.	gene_id "MSTRG.21977"; transcript_id "MSTRG.21977.1"; exon_number "3";
