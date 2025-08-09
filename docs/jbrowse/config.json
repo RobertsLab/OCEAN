@@ -118,8 +118,8 @@
     },
     {
       "type": "QuantitativeTrack",
-      "trackId": "Pum_13_1",
-      "name": "Pum_barcode13_1",
+      "trackId": "Pum_barcode13_1",
+      "name": "Pum_13_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -225,6 +225,16 @@
         "bigWigLocation": { "uri": "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/SRR30335149.sorted.sp.bedGraph.bw" }
       },
       "color": "purple"
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "deg_annotations",
+      "name": "DEG",
+      "assemblyNames": ["Assembly 1.0"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": { "uri": "data/v1/exp_01/DEG.gtf" }
+      }
     }
   ]
 }
