@@ -86,7 +86,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Pum_barcode02",
-      "name": "Pum_barcode02",
+      "name": "Pum_02",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
