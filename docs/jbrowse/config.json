@@ -97,7 +97,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Pum_barcode12_1",
-      "name": "Pum_barcode12_1",
+      "name": "Pum_12_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -108,7 +108,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Pum_barcode13",
-      "name": "Pum_barcode13",
+      "name": "Pum_13",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -118,7 +118,7 @@
     },
     {
       "type": "QuantitativeTrack",
-      "trackId": "Pum_barcode13_1",
+      "trackId": "Pum_13_1",
       "name": "Pum_barcode13_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
@@ -130,7 +130,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Qui_barcode01",
-      "name": "Qui_barcode01",
+      "name": "Qui_01",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -141,7 +141,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Qui_barcode01_1",
-      "name": "Qui_barcode01_1",
+      "name": "Qui_01_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -152,7 +152,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Qui_barcode02_1",
-      "name": "Qui_barcode02_1",
+      "name": "Qui_02_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -163,7 +163,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Qui_barcode12",
-      "name": "Qui_barcode12",
+      "name": "Qui_12",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -174,7 +174,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Rio_barcode03",
-      "name": "Rio_barcode03",
+      "name": "Rio_03",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -185,7 +185,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Rio_barcode03_1",
-      "name": "Rio_barcode03_1",
+      "name": "Rio_03_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -196,7 +196,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Rio_barcode14",
-      "name": "Rio_barcode14",
+      "name": "Rio_14",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
@@ -207,7 +207,7 @@
     {
       "type": "QuantitativeTrack",
       "trackId": "Rio_barcode14_1",
-      "name": "Rio_barcode14_1",
+      "name": "Rio_14_1",
       "assemblyNames": ["Assembly 1.0"],
       "adapter": {
         "type": "BigWigAdapter",
