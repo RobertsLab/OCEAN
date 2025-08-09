@@ -1,5 +1,5 @@
 <IfModule mod_headers.c>
-  <FilesMatch "\.(fa|fai|fna|gz|gzi|gff|gff3|bed|json|bam|vcf|paf|bedGraph|gtf)$">
+  <FilesMatch "\.(fa|fai|fna|gz|gzi|gff|gff3|bed|json|bam|vcf|paf|bw|bedGraph|gtf)$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
