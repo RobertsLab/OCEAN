@@ -29,9 +29,9 @@ analysis\
 
 # Featured Genome Browser Views 👀
 
--   
-
-    ### [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX)
+-   ### [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX)
+ 
+-    ### [DEG MSTRG.1743.1 zoom](https://oystergen.es/jbrowse/?session=share-fpBeSAviSo&password=scJyF)
 
 ------------------------------------------------------------------------
 
