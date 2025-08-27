@@ -6,9 +6,8 @@ editor:
     wrap: 72
 ---
 
-OCEAN (***O**stra **c**hilensis*: **E**pigénoma **A**nálisis en **N**et)
-is an integrated web platform dedicated to advancing research on *Ostrea
-chilensis*, the Chilean flat oyster. By combining high-resolution
+Ostrea chilensis: Epigénoma Análisis en Net
+is an integrated web platform dedicated to advancing research on *Ostrea chilensis*, the Chilean flat oyster. By combining high-resolution
 genomic data with cutting-edge epigenomic insights, OCEAN supports
 researchers exploring gene regulation, environmental plasticity, and
 resilience in this ecologically important marine species.
@@ -29,5 +28,5 @@ Browser</a>]{style="font-size: 1.1em;"}
 </a>
 :::
 
-For questions or feedback, [please submit an
+For questions or feedback, please submit an issue, [please submit an
 issue](https://github.com/RobertsLab/OCEAN/issues/new/choose) 🧬

@@ -1,0 +1,58 @@
+---
+title: "About"
+format: html 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+{{project.name}} is an integrated web platform dedicated to advancing research on
+*{{species.scientific_name}}*, {{species.description}}.
+
+The platform offers:\
+{% for feature in branding.platform_features %}
+• {{feature}}\
+{% endfor %}
+
+::: badges
+<p><a href="{{ website.github_repo }}/releases">
+<img src="https://img.shields.io/github/v/release/{{ website.github_repo.replace('https://github.com/', '') }}"/>
+</a>
+<img src="https://img.shields.io/github/last-commit/{{ website.github_repo.replace('https://github.com/', '') }}"/>
+<img src="https://img.shields.io/badge/jbrowse-{{ jbrowse.version }}-darkblue"/></p>
+:::
+
+------------------------------------------------------------------------
+
+# Featured Genome Browser Views 👀
+
+{% for view in featured_views %}
+-   ### [{{ view.title }}]({{ view.url }})
+{% endfor %}
+
+------------------------------------------------------------------------
+
+{% if population_info.enabled %}
+# {{ population_info.title }}
+
+## Site Location Information
+
+{{ population_info.description }}
+
+<iframe src="{{ population_info.map_embed }}" width="90%" height="480">
+
+</iframe>
+
+| Location | Salinity | Freshwater Input | Tidal Exchange | Human Influence |
+|--------------|--------------|----------------|--------------|--------------|
+{% for location in population_info.locations %}
+| {{ location.name }} | {{ location.salinity }} | {{ location.freshwater_input }} | {{ location.tidal_exchange }} | {{ location.human_influence }} |
+{% endfor %}
+
+{% if population_info.genetic_relatedness.enabled %}
+## Genetic Relatedness
+
+![]({{ population_info.genetic_relatedness.image_url }})
+{% endif %}
+
+{% endif %}

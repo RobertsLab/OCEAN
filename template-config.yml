@@ -1,0 +1,95 @@
+# Template Configuration for Genomic Data Platform
+# Copy this file and customize for your species/project
+
+# Project Information
+project:
+  name: "OCEAN"  # Short name for the project
+  full_name: "Ostrea chilensis: Epigénoma Análisis en Net"  # Full project name
+  description: "An integrated web platform dedicated to advancing research"
+  
+# Species Information  
+species:
+  scientific_name: "Ostrea chilensis"
+  common_name: "Chilean flat oyster"
+  description: "the Chilean flat oyster"
+  emoji: "🦪"  # Optional emoji for branding
+
+# Website Configuration
+website:
+  title: "OCEAN"
+  theme: "simplex"
+  github_repo: "https://github.com/RobertsLab/OCEAN"
+  contact_message: "For questions or feedback, please submit an issue"
+  
+# Genome Browser Configuration
+jbrowse:
+  version: "v3.6.4"
+  assemblies:
+    - name: "Assembly 1.0"
+      fasta_url: "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/merged_out.fasta.TBtools.fa"
+      fai_url: "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/merged_out.fasta.TBtools.fa.fai"
+    - name: "Och_HapA"  
+      fasta_url: "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/HapA/Och_HapA_assembly.fa"
+      fai_url: "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/HapA/Och_HapA_assembly.fa.fai"
+
+# Data Sources (URLs to annotation and other data files)
+data_sources:
+  # Annotation data
+  nr_blast: "http://gannet.fish.washington.edu/seashell/snaps/nr.csv"
+  uniprot: "http://gannet.fish.washington.edu/seashell/snaps/uniprot.txt"  
+  pathways: "http://gannet.fish.washington.edu/seashell/snaps/pathway_table.csv"
+  gene_gff: "http://gannet.fish.washington.edu/seashell/snaps/gene.gff3"
+  
+  # Genome browser specific
+  gene_annotations: "data/v1/GN.gene.gff3"
+  ncrna_annotations: "data/v1/ncRNA.gff3"
+  repeat_annotations: "https://gannet.fish.washington.edu/v1_web/owlshell/bu-github/OCEAN/docs/jbrowse/data/v1/repeat.gff3"
+
+# Population/Study Information (customize or remove sections as needed)
+population_info:
+  enabled: true
+  title: "Population Information"
+  description: "Our focus to date is from oysters from three locales"
+  
+  # Location data
+  map_embed: "https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F&noprof=1"
+  
+  locations:
+    - name: "Río Pudeto"
+      salinity: "Moderate (brackish)"
+      freshwater_input: "Moderate river inflow"
+      tidal_exchange: "Moderate"
+      human_influence: "Moderate"
+    - name: "Pumalín"
+      salinity: "Low (oligohaline)"
+      freshwater_input: "High (glacial & river)"
+      tidal_exchange: "Low"
+      human_influence: "Low (pristine)"
+    - name: "Isla Quihua"
+      salinity: "High (marine)"
+      freshwater_input: "Low to moderate"
+      tidal_exchange: "High"
+      human_influence: "Moderate to high"
+      
+  # Genetic relatedness
+  genetic_relatedness:
+    enabled: true
+    image_url: "http://gannet.fish.washington.edu/seashell/snaps/Monosnap_Monosnap_2025-08-03_15-06-38.png"
+
+# Featured Views (for genome browser)
+featured_views:
+  - title: "Gene Expression following Heat Exposure"
+    url: "https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX"
+  - title: "DEG MSTRG.1743.1 zoom"  
+    url: "https://oystergen.es/jbrowse/?session=share-fpBeSAviSo&password=scJyF"
+
+# Custom branding
+branding:
+  logo_image: "img/ocean.png"
+  celebration_message: "¡Diviértete explorando el océano!"  # Optional custom message
+  platform_features:
+    - "🧬 Genome browser for {species.scientific_name}"
+    - "🔍 Epigenetic data"  
+    - "📊 Interactive tools for gene expression and regulatory region analysis"
+    - "🧠 Curated annotations including GO terms and pathway associations"
+    - "🌐 Data sharing & collaboration hub for the research community"

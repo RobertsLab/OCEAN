@@ -1,0 +1,32 @@
+---
+title: "Explore the Ocean"
+format: html 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+{{ project.full_name }}
+is an integrated web platform dedicated to advancing research on *{{ species.scientific_name }}*, {{ species.description }}. By combining high-resolution
+genomic data with cutting-edge epigenomic insights, {{ project.name }} supports
+researchers exploring gene regulation, environmental plasticity, and
+resilience in this ecologically important marine species.
+
+::: {style="text-align: center; font-size: 1.5em; margin-top: 2em;"}
+{{ branding.celebration_message }}
+:::
+
+![]({{ branding.logo_image }}){fig-align="center"
+width="450px"}
+
+::: {style="display: flex; align-items: center; gap: 1em;"}
+[👉 <a href="jbrowse/index.html">Explore JBrowse Genome
+Browser</a>]{style="font-size: 1.1em;"}
+
+<a href="{{ website.github_repo }}/releases">
+<img src="https://img.shields.io/github/v/release/{{ website.github_repo.replace('https://github.com/', '') }}" style="height: 1.4em;"/>
+</a>
+:::
+
+{{ website.contact_message }}, [please submit an
+issue]({{ website.github_repo }}/issues/new/choose) 🧬

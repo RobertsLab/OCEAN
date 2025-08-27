@@ -1,0 +1,91 @@
+# Example Template Configuration for Arabidopsis thaliana
+# This demonstrates how to adapt the platform for a different species
+
+# Project Information
+project:
+  name: "ArabGenome"
+  full_name: "Arabidopsis thaliana Genomic Analysis Platform"
+  description: "An integrated web platform for plant genomics research"
+  
+# Species Information  
+species:
+  scientific_name: "Arabidopsis thaliana"
+  common_name: "thale cress"
+  description: "the model plant organism"
+  emoji: "🌱"
+
+# Website Configuration
+website:
+  title: "ArabGenome"
+  theme: "flatly"
+  github_repo: "https://github.com/yourlab/arabgenome"
+  contact_message: "For questions or feedback, please submit an issue"
+  
+# Genome Browser Configuration
+jbrowse:
+  version: "v3.6.4"
+  assemblies:
+    - name: "TAIR10"
+      fasta_url: "https://www.arabidopsis.org/download_files/Genes/TAIR10_genome_release/TAIR10_chromosome_files/TAIR10_chr_all.fas"
+      fai_url: "https://www.arabidopsis.org/download_files/Genes/TAIR10_genome_release/TAIR10_chromosome_files/TAIR10_chr_all.fas.fai"
+
+# Data Sources - Update these URLs to your actual data
+data_sources:
+  nr_blast: "https://example.com/data/arabidopsis_nr_blast.csv"
+  uniprot: "https://example.com/data/arabidopsis_uniprot.txt"  
+  pathways: "https://example.com/data/arabidopsis_pathways.csv"
+  gene_gff: "https://www.arabidopsis.org/download_files/Genes/TAIR10_genome_release/TAIR10_gff3/TAIR10_GFF3_genes.gff"
+  
+  # Genome browser specific
+  gene_annotations: "data/TAIR10_genes.gff3"
+  ncrna_annotations: "data/TAIR10_ncrna.gff3"
+  repeat_annotations: "data/TAIR10_repeats.gff3"
+
+# Population/Study Information - Customize for your research
+population_info:
+  enabled: true
+  title: "Ecotype Information"
+  description: "Analysis includes multiple Arabidopsis ecotypes from different geographic regions"
+  
+  # No map needed for this example
+  map_embed: ""
+  
+  locations:
+    - name: "Columbia (Col-0)"
+      salinity: "N/A"
+      freshwater_input: "Temperate climate"
+      tidal_exchange: "N/A"
+      human_influence: "Laboratory strain"
+    - name: "Landsberg erecta (Ler)"
+      salinity: "N/A"
+      freshwater_input: "European origin"
+      tidal_exchange: "N/A"
+      human_influence: "Wild collected"
+    - name: "Wassilewskija (Ws)"
+      salinity: "N/A"
+      freshwater_input: "European origin"
+      tidal_exchange: "N/A"
+      human_influence: "Wild collected"
+      
+  # Genetic relatedness
+  genetic_relatedness:
+    enabled: true
+    image_url: "https://example.com/arabidopsis_phylogeny.png"
+
+# Featured Views
+featured_views:
+  - title: "Flowering Time Genes"
+    url: "jbrowse/?loc=Chr5:25000000-26000000"
+  - title: "Disease Resistance Cluster"  
+    url: "jbrowse/?loc=Chr1:21000000-22000000"
+
+# Custom branding
+branding:
+  logo_image: "img/arabidopsis.png"
+  celebration_message: "Explore the plant genome!"
+  platform_features:
+    - "🧬 Genome browser for *Arabidopsis thaliana*"
+    - "🔍 Transcriptomic data"  
+    - "📊 Interactive tools for gene expression and pathway analysis"
+    - "🧠 Curated annotations including GO terms and metabolic pathways"
+    - "🌐 Data sharing & collaboration hub for the plant research community"

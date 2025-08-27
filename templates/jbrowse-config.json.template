@@ -1,0 +1,63 @@
+{
+  "baseUrl": "jbrowse/",
+  "assemblies": [
+    {% for assembly in jbrowse.assemblies %}
+    {
+      "name": "{{ assembly.name }}",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "{{ assembly.name | lower | replace(' ', '_') }}_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "{{ assembly.fasta_url }}"
+          },
+          "faiLocation": {
+            "uri": "{{ assembly.fai_url }}"
+          }
+        }
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "gene_annotations",
+      "name": "Genes",
+      "assemblyNames": ["{{ jbrowse.assemblies[0].name }}"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": { "uri": "{{ data_sources.gene_annotations }}" }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ncrna_annotations",
+      "name": "ncRNA",
+      "assemblyNames": ["{{ jbrowse.assemblies[0].name }}"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": { "uri": "{{ data_sources.ncrna_annotations }}" }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "repeat_annotations",
+      "name": "Repeats",
+      "assemblyNames": ["{{ jbrowse.assemblies[0].name }}"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "{{ data_sources.repeat_annotations }}"
+        }
+      }
+    }
+  ],
+  "plugins": [
+    {
+      "name": "UMDUrlPlugin",
+      "url": "umd_plugin.js"
+    }
+  ]
+}
