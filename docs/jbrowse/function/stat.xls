@@ -1,7 +1,3 @@
-eggNOG	13932	64.97%
-COG	13932	64.97%
-uniprot	16253	75.79%
-GO	7978	37.20%
-nr	17274	80.55%
-kegg	16111	75.13%
-interpro	13207	61.59%
+version https://git-lfs.github.com/spec/v1
+oid sha256:41a42cc04ba55ab6ac35af63fb490ff8e0bcc92679ea2f3354748f7eaeb3e968
+size 129
