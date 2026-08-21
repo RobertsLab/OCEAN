@@ -1,0 +1,23 @@
+# Git LFS tracking for large binary and data files
+# Genomics data files
+*.bw filter=lfs diff=lfs merge=lfs -text
+*.paf filter=lfs diff=lfs merge=lfs -text
+*.gff3 filter=lfs diff=lfs merge=lfs -text
+*.bam filter=lfs diff=lfs merge=lfs -text
+*.bai filter=lfs diff=lfs merge=lfs -text
+*.vcf.gz filter=lfs diff=lfs merge=lfs -text
+*.sizes filter=lfs diff=lfs merge=lfs -text
+
+# Large spreadsheet/annotation files
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+
+# Source map files (large JS build artifacts)
+*.js.map filter=lfs diff=lfs merge=lfs -text
+*.css.map filter=lfs diff=lfs merge=lfs -text
+
+# Large index files
+*.ix filter=lfs diff=lfs merge=lfs -text
+
+# Large plain text data files
+docs/jbrowse/function/nr.txt filter=lfs diff=lfs merge=lfs -text

@@ -1,1 +1,3 @@
-{"version":3,"file":"static/css/679.45fed583.chunk.css","mappings":"AAAA,uDAAuD;;AAEvD;EACE,cAAc;AAChB","sources":["../../../node_modules/@mui/x-data-grid/esm/index.css"],"sourcesContent":["/* Placeholder file to ensure CSS imports are working */\n\n.MuiDataGrid {\n  display: block;\n}\n"],"names":[],"sourceRoot":""}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea543e0581c46a9a31b82930c4458dda74ada6852d7559dc7096cabf15eb76bb
+size 318
