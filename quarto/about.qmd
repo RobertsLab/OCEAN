@@ -10,12 +10,17 @@ OCEAN is an integrated web platform dedicated to advancing research on
 *Ostrea chilensis*, the Chilean flat oyster.
 
 The platform offers:\
-• 🧬 Genome browser for *O. chilensis*\
+
+• 🧬 Genome browser for {species.scientific_name}\
+
 • 🔍 Epigenetic data\
-• 📊 Interactive tools for gene expression and regulatory region
-analysis\
+
+• 📊 Interactive tools for gene expression and regulatory region analysis\
+
 • 🧠 Curated annotations including GO terms and pathway associations\
-• 🌐 Data sharing & collaboration hub for the oyster research community
+
+• 🌐 Data sharing & collaboration hub for the research community\
+
 
 ::: badges
 <p><a href="https://github.com/RobertsLab/OCEAN/releases">
@@ -29,11 +34,14 @@ analysis\
 
 # Featured Genome Browser Views 👀
 
+
 -   ### [Gene Expression following Heat Exposure](https://robertslab.github.io/OCEAN/jbrowse/?session=share-bS-rRTROpE&password=r9vWX)
- 
--    ### [DEG MSTRG.1743.1 zoom](https://oystergen.es/jbrowse/?session=share-fpBeSAviSo&password=scJyF)
+
+-   ### [DEG MSTRG.1743.1 zoom](https://oystergen.es/jbrowse/?session=share-fpBeSAviSo&password=scJyF)
+
 
 ------------------------------------------------------------------------
+
 
 # Population Information
 
@@ -41,14 +49,17 @@ analysis\
 
 Our focus to date is from oysters from three locales
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&amp;ehbc=2E312F&amp;noprof=1" width="90%" height="480">
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19nWyrDGOjq34Fy3nmXB-walLF1yjNdY&ehbc=2E312F&noprof=1" width="90%" height="480">
 
 </iframe>
 
 | Location | Salinity | Freshwater Input | Tidal Exchange | Human Influence |
 |--------------|--------------|----------------|--------------|--------------|
+
 | Río Pudeto | Moderate (brackish) | Moderate river inflow | Moderate | Moderate |
+
 | Pumalín | Low (oligohaline) | High (glacial & river) | Low | Low (pristine) |
+
 | Isla Quihua | High (marine) | Low to moderate | High | Moderate to high |
 
 
@@ -56,3 +67,5 @@ Our focus to date is from oysters from three locales
 ## Genetic Relatedness
 
 ![](http://gannet.fish.washington.edu/seashell/snaps/Monosnap_Monosnap_2025-08-03_15-06-38.png)
+
+

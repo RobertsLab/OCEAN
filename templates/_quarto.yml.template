@@ -3,7 +3,7 @@ project:
   output-dir: ../docs  # Goes to root-level docs/ folder
 
 website:
-  title: "OCEAN"
+  title: "{{ website.title }}"
   navbar:
     left:
       - text: About
@@ -14,11 +14,11 @@ website:
         href: jbrowse/index.html
     right:
       - icon: github
-        href: https://github.com/RobertsLab/OCEAN
+        href: {{ website.github_repo }}
         aria-label: GitHub
 
 format:
   html:
-    theme: simplex
+    theme: {{ website.theme }}
     css: styles.css
     toc: true

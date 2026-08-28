@@ -21,7 +21,7 @@ library(dplyr)
 
 ```{r, echo=FALSE}
 # Read the CSV file
-nr_data <- read_csv("http://gannet.fish.washington.edu/seashell/snaps/nr.csv")
+nr_data <- read_csv("{{ data_sources.nr_blast }}")
 
 # Subset the relevant columns
 nr_subset <- nr_data[, c("query_name", "nr.hit_name", "description", "E value")]
@@ -44,7 +44,7 @@ datatable(
 
 ```{r, echo=FALSE}
 # Read the tab-delimited file from the URL
-uniprot_data <- read_tsv("http://gannet.fish.washington.edu/seashell/snaps/uniprot.txt")
+uniprot_data <- read_tsv("{{ data_sources.uniprot }}")
 
 # Display as an interactive datatable
 datatable(
@@ -65,7 +65,7 @@ datatable(
 ```{r, echo=FALSE}
 # Read your Pathway CSV
 # Read the CSV
-df <- read_csv("http://gannet.fish.washington.edu/seashell/snaps/pathway_table.csv")
+df <- read_csv("{{ data_sources.pathways }}")
 
 # Create clickable link column
 df <- df %>%
@@ -95,7 +95,7 @@ datatable(
 ```{r, echo=FALSE}
 # Read the GFF3 file (skip comment lines starting with "#")
 gff <- read_tsv(
-  "http://gannet.fish.washington.edu/seashell/snaps/gene.gff3",
+  "{{ data_sources.gene_gff }}",
   comment = "#",
   col_names = c("seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes")
 )
